@@ -73,6 +73,10 @@ namespace BenchmarkCore
     {
         public static void Main(string[] args)
         {
+            var summary = BenchmarkRunner.Run<MeshServerUseCases>();
+            
+            
+            
             var table = new SomeTable
             {
                 Struct = new Struct
